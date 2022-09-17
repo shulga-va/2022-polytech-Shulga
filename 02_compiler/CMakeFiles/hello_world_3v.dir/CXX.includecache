@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shulga-va/computer_science/2022-polytech-shulga/02_compiler/func.cpp
+iostream
+-
+
+/home/shulga-va/computer_science/2022-polytech-shulga/02_compiler/func.h
+
+/home/shulga-va/computer_science/2022-polytech-shulga/02_compiler/hello_world.cpp
+func.h
+/home/shulga-va/computer_science/2022-polytech-shulga/02_compiler/func.h
+
