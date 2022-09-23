@@ -1,0 +1,3 @@
+/home/vladislav/cs/2022-polytech-shulga/03_cpp/intro/CMakeFiles/Name.dir
+/home/vladislav/cs/2022-polytech-shulga/03_cpp/intro/CMakeFiles/edit_cache.dir
+/home/vladislav/cs/2022-polytech-shulga/03_cpp/intro/CMakeFiles/rebuild_cache.dir
