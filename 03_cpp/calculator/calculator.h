@@ -1,4 +1,4 @@
-double expon(double a, double b)
+double expon(double a, int b)
 {
     double res = 1;
     for(int i = 0; i < b; ++i)
@@ -17,10 +17,12 @@ double calculate(double a, char $, double b)
         case '*':
             return a * b;
         case '/':
-            return a / b;
+            if (b == 0)
+                throw "Error";
+            else return a / b;
         case '^':
-            return expon(a, b);
+            return expon(a, static_cast<int>(b));
         default:
-            return 0.00;
+            return .0;
     }
 }
