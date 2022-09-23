@@ -1,3 +1,0 @@
-/home/shulga-va/computer_science/2022-polytech-shulga/02_compiler/CMakeFiles/rebuild_cache.dir
-/home/shulga-va/computer_science/2022-polytech-shulga/02_compiler/CMakeFiles/edit_cache.dir
-/home/shulga-va/computer_science/2022-polytech-shulga/02_compiler/CMakeFiles/hello_world_3v.dir

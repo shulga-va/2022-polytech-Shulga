@@ -1,3 +1,0 @@
-/home/vladislav/cs/2022-polytech-shulga/03_cpp/calculator/CMakeFiles/Calculator.dir
-/home/vladislav/cs/2022-polytech-shulga/03_cpp/calculator/CMakeFiles/edit_cache.dir
-/home/vladislav/cs/2022-polytech-shulga/03_cpp/calculator/CMakeFiles/rebuild_cache.dir
