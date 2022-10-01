@@ -1,0 +1,12 @@
+void insert(int arr[], int arr_new[], int size, int x, int p)
+{
+    for (int i = 0; i < size; ++i)
+    {
+        if (i == p)
+            arr_new[i] = x;
+        if (i < p)
+            arr_new[i] = arr[i];
+        if (i > p)
+            arr_new[i] = arr[i-1];
+    }
+}
