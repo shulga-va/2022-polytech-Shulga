@@ -18,3 +18,8 @@ void insert(int arr[], int arr_new[], int size, int x, int p)
             arr_new[i] = arr[i-1];
     }
 }
+
+void insert_sorted(int arr[], int arr_new[], int size, int x)
+{
+    insert(arr, arr_new, size, x, search_position(arr, size, x));
+}

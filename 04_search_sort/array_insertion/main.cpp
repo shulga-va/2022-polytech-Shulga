@@ -7,8 +7,7 @@ int main()
     int x = 4, p = 1;
     int n = sizeof(arr) / sizeof(arr[0]);
     int arr_new[++n];
-    std::cout << search_position(arr, n, x) << std::endl;
-    //insert(arr, arr_new, n, x, p);
+    insert_sorted(arr, arr_new, n, x);
     for(int i = 0; i < n; i++)
         std::cout << arr_new[i] << " ";
     std::cout << std::endl;
