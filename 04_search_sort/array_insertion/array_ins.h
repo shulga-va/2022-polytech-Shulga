@@ -1,3 +1,11 @@
+int search_position(int arr[], int size, int x)
+{
+    for(int i = 0; i < size; i++)
+        if (arr[i] >= x)
+            return i;
+    return -1;
+}
+
 void insert(int arr[], int arr_new[], int size, int x, int p)
 {
     for (int i = 0; i < size; ++i)
