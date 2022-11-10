@@ -17,5 +17,6 @@ int main()
     assert(length("") == 0);
     assert(length("hello world") == 11);
     assert(length(nullptr) == 0);
+
     return 0;
 }
