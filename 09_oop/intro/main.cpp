@@ -1,51 +1,56 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 struct Person 
 {
-    std::string name{};
-    Person() 
-    { 
-        std::cout << "Person::ctor" << std::endl; 
-    }
-    ~Person() 
-    { 
-        std::cout << "Person::dtor" << std::endl; 
-    }
+  Person() 
+  { 
+    cout << "Person::ctor" << endl; 
+  }
+
+  ~Person() 
+  { 
+    cout << "Person::dtor" << endl; 
+  }
+
+  string name{};
 };
 
 struct Student : virtual public Person 
 {
-    Student() 
-    { 
-        std::cout << "Student::ctor" << std::endl; 
-    }
-    ~Student() 
-    { 
-        std::cout << "Student::dtor" << std::endl; 
-    }
-    int score{};
+  Student() 
+  { 
+    cout << "Student::ctor" << endl; 
+  }
+
+  ~Student() 
+  { 
+    cout << "Student::dtor" << endl; 
+  }
+  int score{};
 };
 
 struct Teacher : virtual public Person 
 {
-    Teacher() 
-    { 
-        std::cout << "Teacher::ctor" << std::endl; 
-    }
-    ~Teacher() 
-    { 
-        std::cout << "Teacher::dtor" << std::endl; 
-    }
+  Teacher() 
+  { 
+    cout << "Teacher::ctor" << endl; 
+  }
+
+  ~Teacher() 
+  { 
+    cout << "Teacher::dtor" << endl; 
+  }
 };
 
-struct TA : Teacher, Student 
-{
-
-};
+struct TA : Teacher, Student {};
 
 int main() 
 {
-    TA ta;
-    return 0;
+  TA ta;
+  ta.score = 4.0;
+
+  return 0;
 }
