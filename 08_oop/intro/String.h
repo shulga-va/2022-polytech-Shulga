@@ -18,7 +18,6 @@ class String
 
     String(const char* init)
     {
-        std::cout << "ctor" << std::endl;
         length = strlen(init);
         data = new char[length+1];
         strcpy(data, init);
