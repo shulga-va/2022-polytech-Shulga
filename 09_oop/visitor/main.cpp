@@ -74,7 +74,7 @@ struct Perimeter : IVisitable
 {
   void accept(Rectangle &r) final 
   { 
-    cout << r.x + r.y << endl; 
+    cout << 2 * (r.x + r.y) << endl; 
   }
   void accept(Circle &c) final 
   { 
@@ -106,15 +106,15 @@ int main()
 {
   vector<IElement *> elements;
 
-  elements.push_back(new Circle{2});
-  elements.push_back(new Rectangle{2, 3});
-  elements.push_back(new Triangle{2, 3, 2});
+  elements.push_back(new Circle{6});
+  elements.push_back(new Rectangle{1, 1});
+  elements.push_back(new Triangle{4, 4, 1});
 
-  Perimeter p;
+  Perimeter per;
   for (auto &el : elements) 
-    el->visit(p);
+    el->visit(per);
 
-  Square s;
+  Square sq;
   for (auto &el : elements) 
-    el->visit(s);
+    el->visit(sq);
 }

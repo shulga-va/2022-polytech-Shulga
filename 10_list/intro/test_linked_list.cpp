@@ -1,5 +1,5 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include "linked_list.hpp"
+#include "linked_list.h"
 #include <doctest.h>
 
 TEST_CASE("Elements can be inserted") {
