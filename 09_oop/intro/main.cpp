@@ -51,6 +51,5 @@ int main()
 {
   TA ta;
   ta.score = 4.0;
-
   return 0;
 }
